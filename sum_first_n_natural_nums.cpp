@@ -12,3 +12,7 @@ int main(){
     cout << sum << endl;
     return 0;
 }
+
+
+// better way to use this 
+// using (n * (n+1))/ 2
