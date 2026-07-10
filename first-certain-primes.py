@@ -1,4 +1,6 @@
 a = int(input())
+import time 
+start = time.perf_counter()
 
 primes = []
 num = 2
@@ -16,3 +18,10 @@ while len(primes) < a:
     num += 1
 
 print(primes)
+
+end = time.perf_counter()
+
+print (f"elapsed {end - start}")
+
+print (end)
+print (start)
